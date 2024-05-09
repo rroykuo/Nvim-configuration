@@ -1,4 +1,5 @@
 # Nvim-configuration
+> Version: NVIM v0.9.5
 
 ## Remove old config
 ```sh
