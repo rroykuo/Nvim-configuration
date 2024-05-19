@@ -20,7 +20,6 @@ require("lazy").setup({
         { import = "lazyvim.plugins.extras.lang.markdown" },
         { import = "lazyvim.plugins.extras.lang.python" },
         { import = "lazyvim.plugins.extras.lang.yaml" },
-        { import = "lazyvim.plugins.extras.util.gitui" },
         { import = "lazyvim.plugins.extras.coding.codeium" },
         -- import/override with your plugins
         { import = "plugins" },
