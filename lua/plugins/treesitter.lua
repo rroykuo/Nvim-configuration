@@ -2,22 +2,6 @@ return {
     "nvim-treesitter/nvim-treesitter",
     -- ensure these language parsers are installed
     opts = {
-        -- ensure_installed = {
-        -- 	"bash",
-        -- 	"c",
-        -- 	"cmake",
-        -- 	"cpp",
-        -- 	"cuda",
-        -- 	"dockerfile",
-        -- 	"gitignore",
-        -- 	"lua",
-        -- 	"make",
-        -- 	"markdown",
-        -- 	"markdown_inline",
-        -- 	"python",
-        -- 	"yaml",
-        -- },
-        -- auto_install = true,
         highlight = {
             enable = true,
         },
