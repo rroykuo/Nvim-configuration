@@ -1,9 +1,9 @@
 return {
-	"mfussenegger/nvim-lint",
-	opts = {
-		linters_by_ft = {
-			cpp = { "cpplint" },
-			python = { "pylint" },
-		},
-	},
+    -- 	"mfussenegger/nvim-lint",
+    -- 	opts = {
+    -- 		linters_by_ft = {
+    -- 			cpp = { "cpplint" },
+    -- 			python = { "pylint" },
+    -- 		},
+    -- 	},
 }

@@ -4,3 +4,5 @@
 -- local opt = vim.opt
 -- opt.shiftwidth = 4 -- Size of an indents
 -- opt.tabstop = 4 -- Number of spaces tabs count for
+vim.g.lazyvim_python_lsp = "pyright"
+vim.g.lazyvim_python_ruff = "ruff_lsp"
