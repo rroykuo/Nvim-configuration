@@ -21,6 +21,8 @@ require("lazy").setup({
         { import = "lazyvim.plugins.extras.lang.python" },
         { import = "lazyvim.plugins.extras.lang.yaml" },
         { import = "lazyvim.plugins.extras.coding.codeium" },
+        { import = "lazyvim.plugins.extras.ui.edgy" },
+        { import = "lazyvim.plugins.extras.editor.aerial" },
         -- import/override with your plugins
         { import = "plugins" },
     },
