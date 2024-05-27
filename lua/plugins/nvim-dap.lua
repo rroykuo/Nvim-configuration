@@ -22,14 +22,14 @@ return {
                 desc = "Toggle Breakpoint",
             },
             {
-                "<S-f>",
+                "<S-i>",
                 function()
                     dap.step_into()
                 end,
                 desc = "Step Into",
             },
             {
-                "<S-g>",
+                "<S-o>",
                 function()
                     dap.step_out()
                 end,
