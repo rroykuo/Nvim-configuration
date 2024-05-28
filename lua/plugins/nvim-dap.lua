@@ -11,46 +11,43 @@ return {
             end
         end,
     },
-    keys = function()
-        local dap = require("dap")
-        return {
-            {
-                "<S-b>",
-                function()
-                    dap.toggle_breakpoint()
-                end,
-                desc = "Toggle Breakpoint",
-            },
-            {
-                "<S-i>",
-                function()
-                    dap.step_into()
-                end,
-                desc = "Step Into",
-            },
-            {
-                "<S-o>",
-                function()
-                    dap.step_out()
-                end,
-                desc = "Step out",
-            },
-            {
-                "<S-c>",
-                function()
-                    dap.step_over()
-                end,
-                desc = "Step over",
-            },
-            {
-                "<S-r>",
-                function()
-                    dap.continue()
-                end,
-                desc = "Continue",
-            },
-        }
-    end,
+    keys = {
+        {
+            "<S-b>",
+            function()
+                require("dap").toggle_breakpoint()
+            end,
+            desc = "Toggle Breakpoint",
+        },
+        {
+            "<S-i>",
+            function()
+                require("dap").step_into()
+            end,
+            desc = "Step into",
+        },
+        {
+            "<S-o>",
+            function()
+                require("dap").step_out()
+            end,
+            desc = "Step out",
+        },
+        {
+            "<S-c>",
+            function()
+                require("dap").step_over()
+            end,
+            desc = "Step over",
+        },
+        {
+            "<S-r>",
+            function()
+                require("dap").continue()
+            end,
+            desc = "Continue",
+        },
+    },
     opts = function()
         local dap = require("dap")
         if not dap.adapters["codelldb"] then
